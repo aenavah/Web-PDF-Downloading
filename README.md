@@ -1,3 +1,2 @@
 # Web-PDF-Downloading
-- first line
-- SECOND LINE
+Originally used to download banking reports from all major banks in a country. Can be used for more general PDF downloads.
