@@ -12,10 +12,11 @@ import wget
 chrome_options = Options()
 
 #use script only for sites where clicking the link takes to pdf, saves in same directory as script
-
+###user inputs###-------------------------------------------------------
 driver = webdriver.Chrome(executable_path = "/Users/alexandranava/Desktop/CODE/World Banking Project/Chrome Driver/chromedriver91", options = chrome_options )
-
-
+site, bank = "",""
+type_, class_ = "",""
+#example variable are below
 #site, bank = "http://eng......................................lish.cmbchina.com/cmbir/intro.aspx?type=report", "chinamerchantsbank"
 #site, bank = "https://www.cib.com.cn/en/aboutCIB/investor/reports/", "industrialbank"
 #site, bank = "https://www.cncbinternational.com/about-us/investor-relations/interim-and-annual-reports/en/index.jsp", "chinaciticbank"

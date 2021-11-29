@@ -4,10 +4,10 @@ from bs4 import BeautifulSoup
 import wget
 
 chrome_options = Options()
-
-driver = webdriver.Chrome(executable_path = "./chromedriver", options = chrome_options )
-
-folder_path = "/Users/alexandranava/Desktop/CODE/World Banking Project"
+###user inputs###----------------
+#example inputs are currently in the following variables, replace with necessary variables for desired basepage.
+driver = webdriver.Chrome(executable_path = "", options = chrome_options )
+folder_path = ""
 
 basepage = "http://www.ccb.com/cn/investor/reportv3/annual_report_1.html"
 
