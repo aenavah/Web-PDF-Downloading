@@ -16,7 +16,7 @@ chrome_options = Options()
 driver = webdriver.Chrome(executable_path = "/Users/alexandranava/Desktop/CODE/World Banking Project/Chrome Driver/chromedriver91", options = chrome_options )
 site, bank = "",""
 type_, class_ = "",""
-#example variable are below
+#example variables are below
 #site, bank = "http://eng......................................lish.cmbchina.com/cmbir/intro.aspx?type=report", "chinamerchantsbank"
 #site, bank = "https://www.cib.com.cn/en/aboutCIB/investor/reports/", "industrialbank"
 #site, bank = "https://www.cncbinternational.com/about-us/investor-relations/interim-and-annual-reports/en/index.jsp", "chinaciticbank"
